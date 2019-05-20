@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "excel",
+    "builds": [
+        { "src": "/index.mjs", "use": "@now/node" }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/index.mjs"
+        }
+    ]
+}
