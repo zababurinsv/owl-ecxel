@@ -29,10 +29,10 @@ We will also define a name for our project (optional).
     "version": 2,
     "name": "nodejs-express",
     "builds": [
-        { "src": "index.js", "use": "@now/node" }
+        { "src": "index.mjs", "use": "@now/node" }
     ],
     "routes": [
-        { "src": "/(.*)", "dest": "index.js" }
+        { "src": "/(.*)", "dest": "index.mjs" }
     ]
 }
 ```
