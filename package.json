@@ -24,7 +24,7 @@
     "path": "^0.12.7",
     "postman-request": "^2.88.1-postman.9",
     "uniqid": "^5.0.3",
-    "validator": "^10.11.0",
+    "validator": "^13.7.0",
     "xlsx": "latest",
     "yarn": "^1.16.0"
   },
